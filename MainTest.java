@@ -35,7 +35,7 @@ public class MainTest {
 			UserDetails userdetails=new UserDetails();
 			userdetails.setPhone("746573624572");
 			userdetails.setUserId(1);
-			userdetails.setUserName("sasirekha");
+			userdetails.setUserName("Pranav");
 			userdetails.setdob(new Date());
 			userdetails.setAddress(address);
 			session.save(userdetails);
