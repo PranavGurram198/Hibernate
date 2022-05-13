@@ -13,7 +13,7 @@ public class UpdateMethod {
 	    Transaction t=session.beginTransaction(); 
 	    UserDetails userdetails=new UserDetails();
 		userdetails.setPhone("9112307181");
-		userdetails.setUserId(1);
+		userdetails.setUserId(9);
 		userdetails.setUserName("Pranav");
 		userdetails.setdob(new Date());
 		session.update(userdetails);
