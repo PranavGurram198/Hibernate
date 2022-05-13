@@ -12,12 +12,12 @@ public class SaveOrUpdateMethod {
 		Session session=UserSession.getSession();
 	    Transaction t=session.beginTransaction(); 
 	    UserDetails userdetails=new UserDetails();
-		userdetails.setPhone("746573624572");
+		userdetails.setPhone("9112307181");
 		userdetails.setUserId(1);
-		userdetails.setUserName("sasirekha");
+		userdetails.setUserName("Pranav");
 		userdetails.setdob(new Date());
 		session.saveOrUpdate(userdetails);
-		userdetails.setUserName("murali");
+		userdetails.setUserName("Gurram");
 		t.commit();
 		System.out.println("updated successfully");
 		session.close();
