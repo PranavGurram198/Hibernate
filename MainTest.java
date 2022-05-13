@@ -30,10 +30,10 @@ public class MainTest {
 			Address address = new Address();
 			address.setCity("Bangalore");
 			address.setState("Tamilnadu");
-			address.setPincode("632602");
+			address.setPincode("411203");
 			address.setStreet("cross street");
 			UserDetails userdetails=new UserDetails();
-			userdetails.setPhone("746573624572");
+			userdetails.setPhone("9112307181");
 			userdetails.setUserId(1);
 			userdetails.setUserName("Pranav");
 			userdetails.setdob(new Date());
