@@ -13,11 +13,11 @@ public class SaveOrUpdateMethod {
 	    Transaction t=session.beginTransaction(); 
 	    UserDetails userdetails=new UserDetails();
 		userdetails.setPhone("9112307181");
-		userdetails.setUserId(1);
+		userdetails.setUserId(9);
 		userdetails.setUserName("Pranav");
 		userdetails.setdob(new Date());
 		session.saveOrUpdate(userdetails);
-		userdetails.setUserName("Gurram");
+		userdetails.setUserName("gurram");
 		t.commit();
 		System.out.println("updated successfully");
 		session.close();
